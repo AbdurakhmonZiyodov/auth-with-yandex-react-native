@@ -1,22 +1,9 @@
 import React from 'react';
-import {Button, SafeAreaView, StyleSheet} from 'react-native';
 
-import {useYandexAuth} from './hooks/useYandexAuth';
+import VKAuthentication from './screens/VKAuthentication';
 
 function App() {
-  const {handler} = useYandexAuth();
-
-  return (
-    <SafeAreaView style={[styles.container]}>
-      <Button title="yandex login" onPress={handler.onLogin} />
-    </SafeAreaView>
-  );
+  return <VKAuthentication />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
 
 export default App;

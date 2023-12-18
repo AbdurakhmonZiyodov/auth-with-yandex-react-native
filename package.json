@@ -13,7 +13,8 @@
     "axios": "^1.6.2",
     "react": "18.2.0",
     "react-native": "0.73.0",
-    "react-native-app-auth": "^7.1.0"
+    "react-native-app-auth": "^7.1.0",
+    "react-native-vkontakte-login": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
