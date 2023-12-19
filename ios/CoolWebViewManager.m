@@ -5,4 +5,8 @@
 //  Created by Abdurahmon Ziyodov on 19/12/23.
 //
 
-#import <Foundation/Foundation.h>
+#import "React/RCTViewManager.h"
+
+@interface RCT_EXTERN_MODULE(CoolWebViewManager, RCTViewManager)
+
+@end
